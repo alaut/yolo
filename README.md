@@ -1,14 +1,17 @@
 # yolo
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
-<script defer src="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.js"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex/dist/contrib/auto-render.min.js"onload="renderMathInElement(document.body);"></script>
-
-
 ```
 Alex Laut
 Jan 15 25
 ```
+
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex/dist/contrib/auto-render.min.js"onload="renderMathInElement(document.body);"></script> -->
+
+<script type="text/javascript" id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 
 Standard quantitative finance assumes that a portfolio’s net asset value changes follow a geometric Brownian motion (and thus are log-normally distributed) with arithmetic average return (or “drift”) $\mu$, standard deviation (or volatility) $\sigma$, and geometric average return $r$ given by
 
