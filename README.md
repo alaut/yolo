@@ -7,15 +7,15 @@ Alex Laut
 Jan 15 25
 ```
 
-Standard quantitative finance assumes that a portfolio’s net asset value changes follow a geometric Brownian motion (and thus are log-normally distributed) with arithmetic average return (or “drift”) $\mu$, standard deviation (or volatility) $\sigma$, and geometric average return $R$ given by
+Standard quantitative finance assumes that a portfolio’s net asset value changes follow a geometric Brownian motion (and thus are log-normally distributed) with arithmetic average return (or “drift”) $\mu$, standard deviation (or volatility) $\sigma$, and geometric average return $r$ given by
 
-$$R = \mu-\sigma^2/2$$
+$$r = \mu-\sigma^2/2$$
 
 A portfolio leveraged by $L$ will yield the following return
 
-$$R_(L) = L\mu -L^2\sigma^2/2$$
+$$R = L\mu -L^2\sigma^2/2$$
 
-The breakeven criterion below which an investment portfolio will suffer excessive losses due to leveraging the following inequality must be true
+The breakeven criterion below which an investment portfolio will suffer excessive losses due to leveraging the following inequality must be true for $R > r$, and therefore
 
 
 $$\boxed{\mu \geq \frac{\sigma^2}{2}\frac{L^2-1}{L-1}}$$
